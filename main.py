@@ -43,7 +43,7 @@ def makeColorRow(OrigImage, widthDiv, heightDiv):
 def convert255ToPercentage(list):
     newList = []
     for i in list:
-        newVal = 1/255 * i
+        newVal = 1/255 * (255-i)
         newList.append(newVal)
 
     return newList

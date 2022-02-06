@@ -1,6 +1,6 @@
 # Exclude images
 *.jpeg
-
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
